@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env
+venv/
+ENV/
+.envrc
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage
+.coverage
+htmlcov/
+*.cover
+*.log
+
+# FastAPI
+*.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Others
+*.sqlite3
+*.mypy_cache/
+*.pytest_cache/
+
+# Ignore requirements.txt lock files
+requirements*.txt.lock
